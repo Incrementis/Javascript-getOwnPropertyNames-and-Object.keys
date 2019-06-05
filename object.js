@@ -51,12 +51,12 @@ function Parser(Content)
 		*/
 		if(ContentArray[key] === "prototype")
 		{
-			//Key								 = Value
-			Class.prototype[ContentArray[key+1]] = ContentArray[key+2];
+			//Key					= Value
+			Class.prototype[ContentArray[key+1]] 	= ContentArray[key+2];
 		}
 		else if(ContentArray[key] === "instance")
 		{
-			//Key							= Value
+			//Key				= Value
 			myInstance[ContentArray[key+1]] = ContentArray[key+2];
 			
 			
@@ -93,7 +93,7 @@ function Read()
 	try
 	{
 		//From: <input id="input-file" type="file">
-		var myFile 		= document.getElementById('input-file').files[0];
+		var myFile 	= document.getElementById('input-file').files[0];
 		
 		//For Parsing loaded text content
 		var FileContent = "NONE";
@@ -135,7 +135,7 @@ function Read()
 function ShowAll()
 {
 	var numberOfAttribuntes = document.getElementById('numOfAttr');
-	var information 		= document.getElementById('interface');
+	var information 	= document.getElementById('interface');
 	
 	//Reseting interface content
 	information.innerHTML 	= "";
@@ -159,7 +159,7 @@ function ShowAll()
 function ShowPartly()
 {
 	var numberOfAttribuntes = document.getElementById('numOfAttr');
-	var information 		= document.getElementById('interface');
+	var information 	= document.getElementById('interface');
 	
 	//Reseting interface content
 	information.innerHTML 	= "";
