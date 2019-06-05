@@ -1,0 +1,6 @@
+prototype;World;22;
+instance;Hello;42;true;
+prototype;MyKey;HELLO WORLD;
+instance;A;1;false;
+instance;B;2;true;
+instance;C;3;false;
